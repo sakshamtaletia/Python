@@ -1,0 +1,72 @@
+1. how to you concatenate two string in python?
+ans: we concatenate string using two thing 1st: using + operator 2nd using join() method
+
+2. what is the diff. btw + operator and join() method for concatenating strings?
+ ans : + operator : it concetenate string directly
+     join(): it concetemtate list 
+
+
+ 3. how do you access individual character in a string?
+  ans : by provide there index number like string="saksham"    we want to access k in this string for we print(string[2])
+
+4. what method is used to find the length of a string in python?
+ ans:    len(string_name)
+
+5. how can you converrt a string in uppercase in python?
+ ans: using string.upper() method
+
+6. how can you convert a string to lowercase in python?
+ ans : using casefold() and lower() method
+
+7. what method is used to replace substring with a string?
+ ans : replace(old , new)
+
+8. hwo can you split a string into a list of substring based on a delimiter?
+ans : using rsplit() method
+
+9. how do you check if a string start with particular substring?
+ans : using startswith("substring")
+
+10. how do you check if a string start with particular substring?
+ans : using endswith("substring")
+
+11. hwo can you remove leading and trailing whitespace from a string?
+ans: using  strip() method
+
+12. what method is used to find the index of the first occurence of substirng within a string?
+ans : find() and index() method
+
+13. hwo can you count the number of occurrence of a substring withia string?
+ans: using string.count("substringj") method
+
+14. how do you check if a string contains only alphabetic charcter?
+ans : string.isalpha()
+
+15. how do you check if a string contains only numeric  charcter?
+ans : isdigit()
+
+16. how do you check if a string is palindrome?
+ans : string="hello"
+  print(string==string[::-1])
+  if return true then it is palindrorme
+
+17. how can you reverse a string in python?
+ans : string="hello"
+    print(string[::-1])
+
+18. how do you format a string with placeholder for variable value?
+ans : name="saksham" age=21
+   print("i am {0} and my age is {1}".format(name,age))
+   or we can format using f string
+   print(f"i am {name} my age is {age})
+
+19. how do you access a substring of string using slicing?
+ans:  string="Saksham"
+   print(string[0:4])
+    output: Saks
+
+20. how can you remove specific character from a string in python?
+ans : string="java"
+  print(string.replace("j",""))
+  output: ava
+  
